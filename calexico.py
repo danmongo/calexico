@@ -45,18 +45,18 @@ es_octubre = fronteras["Date"].dt.strftime("%m") == "10"
 es_noviembre = fronteras["Date"].dt.strftime("%m") == "11"
 es_diciembre = fronteras["Date"].dt.strftime("%m") == "12"
 
-frontCalenede5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_enero]
-frontCalfebde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_febrero]
-frontCalmarde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_marzo]
-frontCalabrde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_abril]
-frontCalmayde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_mayo]
-frontCaljunde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_junio]
-frontCaljulde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_julio]
-frontCalagode5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_agosto]
-frontCalsepde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_septiembre]
-frontCaloctde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_octubre]
-frontCalnovde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_noviembre]
-frontCaldicde5en5 = fronteras[s_Cal & (es_2019 | es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_diciembre]
+frontCalenede5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_enero]
+frontCalfebde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_febrero]
+frontCalmarde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_marzo]
+frontCalabrde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_abril]
+frontCalmayde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_mayo]
+frontCaljunde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_junio]
+frontCaljulde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_julio]
+frontCalagode5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_agosto]
+frontCalsepde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_septiembre]
+frontCaloctde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_octubre]
+frontCalnovde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_noviembre]
+frontCaldicde5en5 = fronteras[s_Cal & (es_2018 | es_2015 | es_2010 | es_2005 | es_2000) & es_PD & es_diciembre]
 
 anioenede5en5=frontCalenede5en5.describe()
 aniofebde5en5=frontCalfebde5en5.describe()
@@ -84,6 +84,46 @@ print(aniosepde5en5)
 print(aniooctde5en5)
 print(anionovde5en5)
 print(aniodicde5en5)
+
+frontCalene19 = fronteras[s_Cal & es_2019 & es_PD & es_enero]
+frontCalfeb19 = fronteras[s_Cal & es_2019 & es_PD & es_febrero]
+frontCalmar19 = fronteras[s_Cal & es_2019 & es_PD & es_marzo]
+frontCalabr19 = fronteras[s_Cal & es_2019 & es_PD & es_abril]
+frontCalmay19 = fronteras[s_Cal & es_2019 & es_PD & es_mayo]
+frontCaljun19 = fronteras[s_Cal & es_2019 & es_PD & es_junio]
+frontCaljul19 = fronteras[s_Cal & es_2019 & es_PD & es_julio]
+frontCalago19 = fronteras[s_Cal & es_2019 & es_PD & es_agosto]
+frontCalsep19 = fronteras[s_Cal & es_2019 & es_PD & es_septiembre]
+frontCaloct19 = fronteras[s_Cal & es_2019 & es_PD & es_octubre]
+frontCalnov19 = fronteras[s_Cal & es_2019 & es_PD & es_noviembre]
+frontCaldic19 = fronteras[s_Cal & es_2019 & es_PD & es_diciembre]
+
+anioene19=frontCalene19.describe()
+aniofeb19=frontCalfeb19.describe()
+aniomar19=frontCalmar19.describe()
+anioabr19=frontCalabr19.describe()
+aniomay19=frontCalmay19.describe()
+aniojun19=frontCaljun19.describe()
+aniojul19=frontCaljul19.describe()
+anioago19=frontCalago19.describe()
+aniosep19=frontCalsep19.describe()
+aniooct19=frontCaloct19.describe()
+anionov19=frontCalnov19.describe()
+aniodic19=frontCaldic19.describe()
+
+print("\n Describe de cada mes del 2019 para mostrar la media")
+print(anioene19)
+print(aniofeb19)
+print(aniomar19)
+print(anioabr19)
+print(aniomay19)
+print(aniojun19)
+print(aniojul19)
+print(anioago19)
+print(aniosep19)
+print(aniooct19)
+print(anionov19)
+print(aniodic19)
 
 frontCalenede10 = fronteras[s_Cal & (es_2019 | es_2018 | es_2017 | es_2016  | es_2015 | es_2014 | es_2013 | es_2012 | es_2011 | es_2010) & es_PD & es_enero]
 frontCalfebde10 = fronteras[s_Cal & (es_2019 | es_2018 | es_2017 | es_2016  | es_2015 | es_2014 | es_2013 | es_2012 | es_2011 | es_2010) & es_PD & es_febrero]
