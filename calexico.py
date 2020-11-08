@@ -311,13 +311,13 @@ print(frontCaldicde5en5)
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalmarzde5en5['Date']
+#x=frontCalmarde5en5['Date']
 #y=frontCalmarde5en5['Value']
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalabde5en5['Date']
-#y=frontCalabde5en5['Value']
+#x=frontCalabrde5en5['Date']
+#y=frontCalabrde5en5['Value']
 #plt.plot(x,y)
 #plt.show()
 
@@ -341,8 +341,8 @@ print(frontCaldicde5en5)
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalseptde5en5['Date']
-#y=frontCalseptde5en5['Value']
+#x=frontCalsepde5en5['Date']
+#y=frontCalsepde5en5['Value']
 #plt.plot(x,y)
 #plt.show()
 
@@ -356,10 +356,10 @@ print(frontCaldicde5en5)
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCaldicde5en5['Date']
-#y=frontCaldicde5en5['Value']
-#plt.plot(x,y)
-#plt.show()
+x=frontCaldicde5en5['Date']
+y=frontCaldicde5en5['Value']
+plt.plot(x,y)
+plt.show()
 
 #2000,2005,2010,2015,2018,2019
 
@@ -389,13 +389,13 @@ print(frontCaldicde10)
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalmarzde10['Date']
+#x=frontCalmarde10['Date']
 #y=frontCalmarde10['Value']
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalabde10['Date']
-#y=frontCalabde10['Value']
+#x=frontCalabrde10['Date']
+#y=frontCalabrde10['Value']
 #plt.plot(x,y)
 #plt.show()
 
@@ -419,8 +419,8 @@ print(frontCaldicde10)
 #plt.plot(x,y)
 #plt.show()
 
-#x=frontCalseptde10['Date']
-#y=frontCalseptde10['Value']
+#x=frontCalsepde10['Date']
+#y=frontCalsepde10['Value']
 #plt.plot(x,y)
 #plt.show()
 
